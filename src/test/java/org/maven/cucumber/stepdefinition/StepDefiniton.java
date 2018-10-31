@@ -19,11 +19,11 @@ public class StepDefiniton extends BaseClass1{
 	LogInPage login=new LogInPage(driver);
 	@Given("^user launch the browser$")
 	public void user_launch_the_browser() throws Throwable {
-	/*System.setProperty("webdriver.chrome.driver","D:\\FacebookCucumber\\driver\\chromedriver.exe" );
+	System.setProperty("webdriver.chrome.driver","D:\\FacebookCucumber\\driver\\chromedriver.exe" );
 	driver=new ChromeDriver();
-	driver.manage().window().maximize();*/
+	driver.manage().window().maximize();
 	     //Write code here that turns the phrase above into concrete actions
-		getDriver("chrome");
+		//getDriver("chrome");
    
 	}
 	@When("^user enter the url$")
