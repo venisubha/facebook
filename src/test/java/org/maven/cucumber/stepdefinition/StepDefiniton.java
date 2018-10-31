@@ -14,7 +14,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class StepDefiniton extends BaseClass1{
+public class StepDefiniton {
 	 WebDriver driver;
 	LogInPage login=new LogInPage(driver);
 	@Given("^user launch the browser$")
